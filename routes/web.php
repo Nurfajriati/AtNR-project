@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\acehtourController;
-
+use App\Http\Controllers\ratingController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -31,3 +31,4 @@ Route::get('/halaman1',function(){
 });
 
 Route::get('/komentar/store', [acehtourController::class, 'store']);
+Route::get('/rating/store', [ratingController::class, 'store']);

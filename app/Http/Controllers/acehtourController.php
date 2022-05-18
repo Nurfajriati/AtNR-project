@@ -13,20 +13,15 @@ class acehtourController extends Controller
             ->get();
         $select = json_decode($select, true);
 
-        // $sinopsis = DB::table('notesinopsis')
-        //     ->select('judul', 'sinopsis')
-        //     ->get();
-        // $sinopsis = json_decode($sinopsis, true);
-
         return view('komentar', [
             'select' => $select,
-            // 'sinopsis' => $sinopsis,
         ]);
     }
 
     public function input()
     {
         return view('komentar');
+        return view('rating');
     }
 
     public function store(Request $request)
@@ -34,9 +29,11 @@ class acehtourController extends Controller
         //memasukkan data kedalam databse
         DB::table('komentar')->insert([
             'komentar' => $request->komentar,
-            // 'sinopsis' => $request->sinopsis,
         ]);
 
         return redirect('/komentar');
+
     }
+
+    
 }
