@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\acehtourController;
 
 /*
 |--------------------------------------------------------------------------
@@ -28,3 +29,5 @@ Route::get('/rating',function(){
 Route::get('/halaman1',function(){
     return view('halamansatu');
 });
+
+Route::get('/komentar/store', [acehtourController::class, 'store']);

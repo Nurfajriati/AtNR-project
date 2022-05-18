@@ -20,15 +20,18 @@
     <div class = "text-center">
     <h1><b>KOMENTAR/SARAN</b></h1>
     <br><br><br><br>
-    <textarea class="form-control" rows="6" id="comment" name="text" style="text-align: center; font-family: Times New Roman, Times, serif; font-size: 32px;text-decoration: underline; "></textarea>
-    </div>
-  <br><br><br><br>
-  <div class="row">
+    <form action="/komentar/store" method ="get">
+      {{csrf_field()}}
+    <textarea class="form-control" rows="6" id="comment" name="komentar" style="text-align: center; font-family: Times New Roman, Times, serif; font-size: 32px;text-decoration: underline; "></textarea>
+    <br><br><br><br>
+    <div class="row">
     <div class="col-sm-2">
-  <a href="/" class="btn"><img src="img/back.png" alt="" style="width: 80px;"></a>
+     <a href="/" class="btn"><img src="img/back.png" alt="" style="width: 80px;"></a>
     </div>
-  </div>
-    <button type="button" class="btn btn-outline-dark" style="position: absolute; bottom: 73px; right: 70px; background-color: #C4C4C4">Kirim</button>
+    </div>
+     <input type="submit" value="Kirim" style="position: absolute; bottom: 73px; right: 45px; background-color: #C4C4C4"> 
+    </form>
   </div>
 </div>
+
 </body>
