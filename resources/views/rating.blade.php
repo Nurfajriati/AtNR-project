@@ -25,11 +25,12 @@
     }
 
     .rating {
-        width: 90px;
+        width: 850px;
         unicode-bidi: bidi-override;
         direction: rtl;
-        text-align: center;
         position: relative;
+        padding: 55px 0;
+        padding-left: 450px;
     }
 
     .rating > label {
@@ -41,6 +42,7 @@
         width: 1.1em;
         cursor: pointer;
         color: #000;
+        font-size: 70px;
     }
 
     .rating > label:hover,
@@ -57,14 +59,33 @@
         position: absolute;
         left: 0;
         color: #FFD700;
+    }
     </style>
 </head>
 <body>
   <div class="container mt-5" style="position: relative;">
     <br>
       <div class = "text-center">
-      <h1><b>Rating</b></h1>
+      <h1><b>RATING</b></h1>
         <form>
+              <div class="rating">
+                  <input id="star5" name="star" type="radio" value="5" class="radio-btn hide" />
+                  <label for="star5">☆</label>
+                  <input id="star4" name="star" type="radio" value="4" class="radio-btn hide" />
+                  <label for="star4" >☆</label>
+                  <input id="star3" name="star" type="radio" value="3" class="radio-btn hide" />
+                  <label for="star3" >☆</label>
+                  <input id="star2" name="star" type="radio" value="2" class="radio-btn hide" />
+                  <label for="star2" >☆</label>
+                  <input id="star1" name="star" type="radio" value="1" class="radio-btn hide" />
+                  <label for="star1" >☆</label>
+                  <div class="clear"></div>
+              </div>
+          </form>
+          <div class = "text-center">
+      <h1><b>RATING TEMPAT WISATA</b></h1>
+          <form>
+            
               <div class="rating">
                   <input id="star5" name="star" type="radio" value="5" class="radio-btn hide" />
                   <label for="star5" >☆</label>
