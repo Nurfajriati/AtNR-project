@@ -13,17 +13,8 @@ class acehtourController extends Controller
             ->get();
         $select = json_decode($select, true);
 
-        $rating = DB::table('rating')
-            ->select('rating_web', 'nama_tempat','rating_tempat')
-            ->get();
-        $rating = json_decode($rating, true);
-
         return view('komentar', [
             'select' => $select,
-        ]);
-
-        return view('rating',[
-            'rating'=>$rating,
         ]);
     }
 
@@ -42,12 +33,7 @@ class acehtourController extends Controller
 
         return redirect('/komentar');
 
-        //memasukkan data kedalam databse
-        DB::table('rating')->insert([
-            'rating' => $request->rating,
-        ]);
-
-        return redirect('/rating');
-
     }
+
+    
 }

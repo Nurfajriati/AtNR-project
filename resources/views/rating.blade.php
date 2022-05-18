@@ -25,7 +25,7 @@
     }
 
     .rating {
-        width: 850px;
+        width: 840px;
         unicode-bidi: bidi-override;
         direction: rtl;
         position: relative;
@@ -63,43 +63,45 @@
     </style>
 </head>
 <body>
-  <div class="container mt-5" style="position: relative;">
+  <div class="container mt-3" style="position: relative;">
     <br>
       <div class = "text-center">
       <h1><b>RATING</b></h1>
-        <form>
+        <form action="/rating/store" method ="get">
+          {{csrf_field()}}
               <div class="rating">
-                  <input id="star5" name="star" type="radio" value="5" class="radio-btn hide" />
+                  <input id="star5" name="rating_web" type="radio" value="5" class="radio-btn hide" />
                   <label for="star5">☆</label>
-                  <input id="star4" name="star" type="radio" value="4" class="radio-btn hide" />
+                  <input id="star4" name="rating_web" type="radio" value="4" class="radio-btn hide" />
                   <label for="star4" >☆</label>
-                  <input id="star3" name="star" type="radio" value="3" class="radio-btn hide" />
+                  <input id="star3" name="rating_web" type="radio" value="3" class="radio-btn hide" />
                   <label for="star3" >☆</label>
-                  <input id="star2" name="star" type="radio" value="2" class="radio-btn hide" />
+                  <input id="star2" name="rating_web" type="radio" value="2" class="radio-btn hide" />
                   <label for="star2" >☆</label>
-                  <input id="star1" name="star" type="radio" value="1" class="radio-btn hide" />
+                  <input id="star1" name="rating_web" type="radio" value="1" class="radio-btn hide" />
                   <label for="star1" >☆</label>
                   <div class="clear"></div>
               </div>
-          </form>
-          <div class = "text-center">
       <h1><b>RATING TEMPAT WISATA</b></h1>
-          <form>
-            
+      <br><br>
+      <input type="text" id="ratingwisata" name="nama_tempat"style="width: 30%"><br>
               <div class="rating">
-                  <input id="star5" name="star" type="radio" value="5" class="radio-btn hide" />
-                  <label for="star5" >☆</label>
-                  <input id="star4" name="star" type="radio" value="4" class="radio-btn hide" />
-                  <label for="star4" >☆</label>
-                  <input id="star3" name="star" type="radio" value="3" class="radio-btn hide" />
-                  <label for="star3" >☆</label>
-                  <input id="star2" name="star" type="radio" value="2" class="radio-btn hide" />
-                  <label for="star2" >☆</label>
-                  <input id="star1" name="star" type="radio" value="1" class="radio-btn hide" />
-                  <label for="star1" >☆</label>
+                  <input id="star6" name="rating_tempat" type="radio" value="5" class="radio-btn hide" />
+                  <label for="star6" >☆</label>
+                  <input id="star7" name="rating_tempat" type="radio" value="4" class="radio-btn hide" />
+                  <label for="star7" >☆</label>
+                  <input id="star8" name="rating_tempat" type="radio" value="3" class="radio-btn hide" />
+                  <label for="star8" >☆</label>
+                  <input id="star9" name="rating_tempat" type="radio" value="2" class="radio-btn hide" />
+                  <label for="star9" >☆</label>
+                  <input id="star10" name="rating_tempat" type="radio" value="1" class="radio-btn hide" />
+                  <label for="star10" >☆</label>
                   <div class="clear"></div>
               </div>
-          </form>
+              <br>
+              <input type="submit" value="done" style="position: absolute;  width:100px; height:45px; bottom: 70px; right: 200px; background-color: #C4C4C4; font-family: Times New Roman, Times, serif;"> 
+            </form>
       </div>
+      <a href="/" class="btn"><img src="img/back.png" alt="" style="width: 80px;"></a>
       </div>
 </body>
