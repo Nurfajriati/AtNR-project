@@ -30,5 +30,28 @@ Route::get('/halaman1',function(){
     return view('halamansatu');
 });
 
+Route::get('/satu',function(){
+    return view('tempatwisata/satu');
+});
+Route::get('/dua',function(){
+    return view('tempatwisata/dua');
+});
+Route::get('/tiga',function(){
+    return view('tempatwisata/tiga');
+});
+Route::get('/empat',function(){
+    return view('tempatwisata/empat');
+});
+Route::get('/lima',function(){
+    return view('tempatwisata/lima');
+});
+Route::get('/enam',function(){
+    return view('tempatwisata/enam');
+});
+
+Route::get('/halamansatu',function(){
+    return view('halamansatu');
+});
+
 Route::get('/komentar/store', [acehtourController::class, 'store']);
 Route::get('/rating/store', [ratingController::class, 'store']);

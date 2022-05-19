@@ -12,85 +12,85 @@
     body{
       background-color: #855E5E;
     }
-    .awal{
-      background-image: url(AtNR 1.png);
-      background-repeat: no-repeat;
-      background-size: contain;
-    }
     </style>
 </head>
 <body>
-  <div class="awal" style="background-image: image(img/AtNR 1.png);">
     <div class="container mt-4">
     <div class = "text-center">
         <h1><b>Destinasi Wisata Aceh</b></h1>
-        <br><br><br><br>
+        <br><br>
     </div>
     <div class="row" style="padding-left: 100px;">
     <div class="col-sm-4">
-    <div class="card" style="width: 18rem;">
-        <img src="" class="card-img-top" alt="...">
+    <div class="card" style="width: 15rem; ">
+        <img src="https://i.ytimg.com/vi/qzseaCuP18A/maxresdefault.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <h5 class="card-title text-center">Taman Rusa Aceh Besar</h5>
+          <div class="text-center">
+          <a href="/satu" class="btn btn-primary">More Info</a>
+          </div>
         </div>
     </div>
     </div>
     <div class="col-sm-4">
-        <div class="card" style="width: 18rem;">
-            <img src="" class="card-img-top" alt="...">
+        <div class="card" style="width: 15rem;">
+            <img src="https://cdn.nativeindonesia.com/foto/2020/09/Pantai-Ulee-Lheue.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title text-center">Pantai Ulee Lheu Banda Aceh</h5>
+              <div class="text-center">
+              <a href="/dua" class="btn btn-primary">More Info</a>
             </div>
+          </div>
         </div>
         </div>
     <div class="col-sm-4">
-        <div class="card" style="width: 18rem;">
-            <img src="" class="card-img-top" alt="...">
+        <div class="card" style="width: 15rem;">
+            <img src="https://i.ytimg.com/vi/IRkGF3cJwS4/maxresdefault.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title text-center">Waterboom Malaka Aceh Besar</h5>
+              <div class="text-center">
+              <a href="/tiga" class="btn btn-primary">More Info</a>
             </div>
         </div>
         </div>
+    </div>
     </div>
     <br><br>
     <div class="row" style="padding-left: 100px;">
       <div class="col-sm-4">
-      <div class="card" style="width: 18rem;">
-          <img src="" class="card-img-top" alt="...">
+      <div class="card" style="width: 15rem;">
+          <img src="https://cdn-2.tstatic.net/aceh/foto/bank/images/air-terjun-sabet-destinasi-air-tawar-aceh-jaya.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <h5 class="card-title text-center">Air Terjun Sabet Aceh Jaya</h5>
+            <div class="text-center">
+            <a href="/empat" class="btn btn-primary">More Info</a>
           </div>
       </div>
       </div>
+      </div>
       <div class="col-sm-4">
-          <div class="card" style="width: 18rem;">
-              <img src="" class="card-img-top" alt="...">
+          <div class="card" style="width: 15rem;">
+              <img src="https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,q_auto:best,w_640/v1595758875/ihbs6sxcem9qzhzmxpmx.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-          </div>
-          </div>
-      <div class="col-sm-4">
-          <div class="card" style="width: 18rem;">
-              <img src="" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title text-center">Pantai Lhoknga Aceh Besar</h5>
+                <div class="text-center">
+                <a href="/lima" class="btn btn-primary">More Info</a>
               </div>
           </div>
           </div>
       </div>
+      <div class="col-sm-4">
+          <div class="card" style="width: 15rem;">
+              <img src="https://awsimages.detik.net.id/community/media/visual/2020/03/18/a38b061d-a43d-4d25-bca5-94e2c351fc88_169.jpeg?w=700&q=90" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-center">Meseum Tsunami Banda Aceh</h5>
+                <div class="text-center">
+                <a href="/enam" class="btn btn-primary">More Info</a>
+              </div>
+          </div>
+          </div>
+      </div>
+      </div>
+      <a href="/" class="btn"><img src="img/back.png" alt="" style="width: 80px;"></a>
     </div>
-  </div>
 </body>

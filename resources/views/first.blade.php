@@ -17,6 +17,7 @@
 <body>
 
 <div class="container mt-2">
+  {{-- membuat button dropdown menu --}}
 <div class="dropdown">
   <button class="btn-group dropstart rounded float-end" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
       <img src="img/menu.png" alt="" width="36" height="36"></button>
